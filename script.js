@@ -3,11 +3,9 @@ const imageContainer = document.querySelector(".wrapper");
 const next = document.querySelector(".next");
 const back = document.querySelector(".back");
 const startScreen = document.querySelector(".initial-screen");
-console.log(allImages);
 
 let index = 0;
 let totalPictures = allImages.length;
-console.log(totalPictures);
 
 //hide everything first and only display the start button first
 function slidesHiddenUponPageLoad() {
